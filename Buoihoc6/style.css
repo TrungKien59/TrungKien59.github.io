@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-size: 14px;
+    font-family: Ro;
+}
+ul, li{
+    list-style: ;
+}
+.container{
+
+}
+
+.header-top{
+    
+}
+.header-top,
+.header-form,
+.header-action{
+    display: table-cell;
+}
+.header-logo{
+    width: 200px;
+}
+.header-action{
+    width: 250px;
+    text-align: right;
+}
+.header-form form{
+    background-color: ;
+}
