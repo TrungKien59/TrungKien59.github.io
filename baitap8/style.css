@@ -1,0 +1,16 @@
+.banner .spa-img {
+    width: 43.4%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.about .flower-1 {
+    left: 16%;
+    top: 0;
+    max-width: 160px;
+}
+.about .flower-2 {
+    right: 16%;
+    top: 0;
+    max-width: 150px;
+}
