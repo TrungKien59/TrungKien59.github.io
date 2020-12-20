@@ -1,0 +1,57 @@
+*{
+    padding: 0px ;
+    margin: 0px ;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0px 20%;
+    background-color: #a9d0a9;
+    width: 100%;
+}
+
+.header{
+    height: 30px;
+    width: 100%;
+    background-color: lightcoral;
+}
+
+.row{
+    display: flex;
+}
+
+.row.middle{
+    margin: 30px 0px;
+}
+
+.box{
+    background-color:blue;
+    height: 200px;
+    width: 100%;
+}
+
+.box.center{
+    margin: 0px 30px;
+}
+
+/* Khi xem ở chế độ mobile chiều rộng(width) < 768px */
+@media only screen and (max-width : 47,9375em){
+    .container{
+        padding: 0px 15px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .box{
+        margin: 0px 0px 30px;
+    }
+    .box.center{
+        margin: 0px 0px 30px;
+    }
+    .row.middle{
+        margin: 0px;
+    }
+    .box.bottom{
+        margin-bottom: 0px;
+    }
+}
