@@ -1,23 +1,23 @@
 * {
+  box-sizing: border-box;
   padding: 0px;
   margin: 0px;
-  box-sizing: border-box;
 }
 
 .header {
-  background-color: lightpink;
   width: 100%;
   height: 30px;
+  background-color: lightpink;
 }
 
 .container {
+  width: 100%;
+  display: grid;
   background-color: lightsalmon;
   padding: 0px 15px 30px;
-  width: 100%;
   height: calc(100vh - 30px);
-  display: grid;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 300px 1fr;
-  grid-template-columns: 2px 1fr;
 }
 
 .box {
@@ -25,34 +25,37 @@
 }
 
 .left {
-  background-color: chartreuse;
-  margin: 0px 15px;
   display: grid;
+  margin: 0px 15px;
   gap: 15px 15px;
-  grid-template-rows: 1fr 1fr;
+  background-color: chartreuse;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
+
 .right {
   background-color: blue;
   margin: 0px 15px;
-  grid-row: 1 / 3;
   grid-column: 2 / 3;
+  grid-row: 1 / 3;
 }
 
-/* Khi xem ở chế độ máy tính bảng(tablet) < 1024px */
-@media only screen and (max-width: 63,9375em) {
+/* Xem ở chế độ máy tính bảng(Tablet): width < 1024px */
+@media only screen and (max-width: 63.9375em) {
   .container {
     padding: 15px 15px 0;
-    grid-template-rows: 300px 1fr;
     grid-template-columns: 1fr;
+    grid-template-rows: 300px 1fr;
   }
+
   .left,
   .right {
     margin: 0px;
   }
+
   .right {
     margin-top: 30px;
     grid-row: 2 / 3;
-    grid-column: 1 / 3;
+    grid-column: 1 / 2;
   }
 }
