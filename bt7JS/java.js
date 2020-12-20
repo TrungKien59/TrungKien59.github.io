@@ -1,3 +1,4 @@
+//  Ý 1, 2 bài tập Javascript HTML DOM
 // function copyContent ( p1, p2 )
 // {
 //     document.getElementById(p1).innerHTML = document.getElementById(
@@ -5,7 +6,7 @@
 //     ).innerHTML;
 // }
 
-//   Ý 3 bài tập 6
+//   Ý 3 bài tập Javascript HTML DOM
 // function reverseContent ( p1, p2 )
 // {
 //     let paragraph1 = document.getElementById( p1 );
@@ -16,7 +17,7 @@
 //     paragraph2.innerHTML = temp;
 // }
 
-//   Ý 4 bài tập 6
+//   Ý 4 bài tập Javascript HTML DOM
 // function changeFontSize (x)
 // {
 // (Cách 1)
@@ -35,7 +36,7 @@
 //     }
 // }
 
-//   Ý 5,6 bài tập 6
+//   Ý 5,6 bài tập Javascript HTML DOM
 // changeFontSize( 25 );
 
 // function increaseFontSize ()
