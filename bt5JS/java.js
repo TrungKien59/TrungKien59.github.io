@@ -22,7 +22,6 @@
 //     return arr.join('')
 // }
 
-
 // Bài 2: Chuyển 1 chuỗi gồm nhiều từ thành dạng Spinal case. Ví dụ: ''HELLO world'' => ''hello-world''.
 // function bai2 ( str ){
 //     // tách chuỗi thành mảng
@@ -39,3 +38,17 @@
 // }
 
 // Bài 3: Cho 1 chuỗi, kiểm tra xem chuỗi đó có phải chuỗi đối xứng hay không( đọc xuôi hay ngược đều như nhau, không tính khoảng trắng và không phân biệt hoa thường ), kết quả trả về true hoặc false.Ví dụ ''Race car'' trả về true, ''hello world'' trả về false.
+// function symmetry(str) {
+//   let newStr = str.toLowerCase().split(" ").join(" ");
+//   let reverseStr = "";
+
+//   for (let i = newStr.length - 1; i >= 0; i--) {
+//     reverseStr += newStr[i];
+//   }
+
+//   if (newStr === reverseStr) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
